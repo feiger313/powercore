@@ -1,3 +1,2 @@
 # powercore
-A digital power controller
-A digital power controller
+ create a soc as a template
