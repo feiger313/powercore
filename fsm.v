@@ -18,4 +18,12 @@ module fsm (
 )
 
 
+always @ (posedge mclk or negedge mreset_n)
+begin
+    if (!mreset_n)
+	    test_reg   <= 1'b0 ;
+    else
+	    test_reg   <= 
+end
+
 endmodule
